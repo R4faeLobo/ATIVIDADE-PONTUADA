@@ -26,6 +26,7 @@ programa {
     escreva("\n========DADOS DO USUARIO=========")
     escreva("\n\nNome de Usuario: ", nome)
     escreva("\nSexo: ", sexo)
+    se(sexo =="F" e estadoCivil == "casada") {
     escreva("\nEstado civil: ", estadoCivil)
     escreva("\nTempo de casada: ", tempoDeCasada)
     }
